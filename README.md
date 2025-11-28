@@ -47,5 +47,22 @@ ros2 run nav2_map_server map_server_cli -f ~/map
 ```
 
 ## Navigation
+### 1. Launching the robot 
+```bash
+ros2 launch pathfinder my_robot_world.launch.py
+```
+### 2. Starting the navigation 
+```bash
+ros2 launch pathfinder bringup_launch.py
+```
 
+### 3. Visualization of autonomous navigation 
+```bash 
+ros2 launch rviz_launch.py
+```
 
+### Steps
+1. Set the initial pose by clicking on 2D pose in rviz. 
+2. Set the goal pose by clicking on Navigation goal in rviz.
+
+# Enjoy the autonomous navigation 😁😁
