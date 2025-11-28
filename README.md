@@ -2,8 +2,8 @@
 Robot SLAM and Autonomous Navigation
 
 # Requirements
-Ubunut 24.04
-ROS2 Jazzy
+1. Ubunut 24.04
+2. ROS2 Jazzy
 
 ## Setting up the ROS2 workspace
 # 1. Cloning the repository inro ros2_ws
@@ -17,5 +17,5 @@ git clone https://github.com/Sai-Chandana-Saya/Pathfinder.git .
 ```bash
 colcon build
 source install/setup.bash
-
+```
 
