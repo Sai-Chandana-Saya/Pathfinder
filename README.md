@@ -11,6 +11,7 @@ ROS2 Jazzy
 mkdir -p ros2_ws
 cd ros2_ws
 git clone https://github.com/Sai-Chandana-Saya/Pathfinder.git .
+```
 
 # 2. Building and Sourcing the workspace
 ```bash
