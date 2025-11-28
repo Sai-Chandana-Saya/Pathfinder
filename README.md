@@ -6,7 +6,7 @@ Robot SLAM and Autonomous Navigation
 2. ROS2 Jazzy
 
 ## Setting up the ROS2 workspace
-# 1. Cloning the repository inro ros2_ws
+# 1. Cloning the repository into ros2_ws
 ``` bash
 mkdir -p ros2_ws
 cd ros2_ws
