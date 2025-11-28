@@ -21,29 +21,31 @@ source install/setup.bash
 ```
 
 ## SLAM
-### Launching the robot in the Gazebo world
+### 1. Launching the robot in the Gazebo world
 ```bash
 ros2 launch pathfinder my_robot_world.launch.py
 ```
-### Start a Navigation launch file
+### 2. Start a Navigation launch file
 ```bash
 ros2 launch pathfinder navigation_launch.py use_sim_time:=True
 ```
-### Start SLAM with slam_toolbox
+### 3. Start SLAM with slam_toolbox
 ```bash
 ros2 launch pathfinder online_async_launch.py
 ```
-### Start Rviz
+### 4. Start Rviz
 ```bash
 ros2 run rviz2 rviz2
 ```
-### Control the robot
+### 5. Control the robot
 ```bash
 ros2 run pathfinder teleop_keyboard_twist.py
 ```
-### Save the map
+### 6. Save the map
 ```bash
 ros2 run nav2_map_server map_server_cli -f ~/map
 ```
+
+## Navigation
 
 
