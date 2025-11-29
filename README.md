@@ -41,10 +41,6 @@ ros2 run rviz2 rviz2
 ```bash
 ros2 run pathfinder teleop_keyboard_twist.py
 ```
-## Demo Video
-
-Watch the mapping demo: [mapping.mp4](https://github.com/Sai-Chandana-Saya/Pathfinder/blob/main/mapping.mp4)
-
 ### 6. Save the map
 ```bash
 ros2 run nav2_map_server map_server_cli -f ~/map
