@@ -41,8 +41,12 @@ ros2 run rviz2 rviz2
 ```bash
 ros2 run pathfinder teleop_keyboard_twist.py
 ```
-### Demo Video
-![Pathfinder Demo](mapping.mp4)
+## Demo Video
+
+<video width="800" controls>
+  <source src="https://github.com/Sai-Chandana-Saya/Pathfinder/raw/main/mapping.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### 6. Save the map
 ```bash
