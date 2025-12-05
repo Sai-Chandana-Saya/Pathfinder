@@ -58,7 +58,7 @@ ros2 launch pathfinder bringup_launch.py use_sim_time:=True
 
 ### 3. Visualization of autonomous navigation 
 ```bash 
-ros2 launch rviz_launch.py
+ros2 launch pathfinder rviz_launch.py
 ```
 
 ### Steps
