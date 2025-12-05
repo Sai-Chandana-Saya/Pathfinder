@@ -27,7 +27,7 @@ ros2 launch pathfinder my_robot_world.launch.py
 ```
 ### 2. Start a Navigation launch file
 ```bash
-ros2 launch pathfinder navigation_launch.py use_sim_time:=True map:=~/map.yaml
+ros2 launch pathfinder navigation_launch.py use_sim_time:=True 
 ```
 ### 3. Start SLAM with slam_toolbox
 ```bash
@@ -53,7 +53,7 @@ ros2 launch pathfinder my_robot_world.launch.py use_sim_time:=True
 ```
 ### 2. Starting the navigation 
 ```bash
-ros2 launch pathfinder bringup_launch.py use_sim_time:=True
+ros2 launch pathfinder bringup_launch.py use_sim_time:=True map:=~/map.yaml
 ```
 
 ### 3. Visualization of autonomous navigation 
