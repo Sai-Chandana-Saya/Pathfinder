@@ -49,11 +49,11 @@ ros2 run nav2_map_server map_server_cli -f ~/map
 ## Navigation
 ### 1. Launching the robot 
 ```bash
-ros2 launch pathfinder my_robot_world.launch.py
+ros2 launch pathfinder my_robot_world.launch.py use_sim_time:=True
 ```
 ### 2. Starting the navigation 
 ```bash
-ros2 launch pathfinder bringup_launch.py
+ros2 launch pathfinder bringup_launch.py use_sim_time:=True
 ```
 
 ### 3. Visualization of autonomous navigation 
